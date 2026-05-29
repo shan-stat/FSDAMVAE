@@ -5,7 +5,7 @@ fsdam <- function(dat, opt_numCode=ncol(dat), opt_seed=1, opt_model="n", opt_gpu
 #    reticulate::use_python("/app/easybuild/software/Python/3.7.4-foss-2016b/bin/python")
 #    reticulate::py_config() # to check 
      
-    python_path <- system.file("python", package = "FSDAM")
+    python_path <- system.file("python", package = "FSDAMVAE") # modified
     ae <- import_from_path("autoencoders", path = python_path)  
     
     if (!is.data.frame(dat)) dat=data.frame(dat)    
