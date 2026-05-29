@@ -1,4 +1,4 @@
-Package: FSDAM_VAE
+Package: FSDAMVAE
 LazyLoad: yes
 LazyData: yes
 Version: 2024.7-30
